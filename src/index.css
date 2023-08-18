@@ -1,13 +1,200 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* .avatar{
+    clip-path: circle();
+} */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg-black{
+    color: white;
+}
+.marqueee{
+    font-weight: bold;
+    padding: 2px;
+    margin: 2px;
+}
+.Nav{
+    color: black;
+    text-decoration: none;
+}
+.pretext{
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    position: relative;
+    bottom: 45px;
+}
+.img{
+    width: 100%;
+    height: 350px;
+}
+.btn{
+    float: left;
+}
+.S-btn{
+    position: relative;
+    bottom: 30px;
+}
+.text-start{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img_url:hover{
+    overflow: hidden;
+    transition: transform 3s;
+    transform: scale(1.1);
+}
+.cart_city{
+    position: absolute;
+    left: 18px;
+    bottom: 28px;
+    color: white !important;
+    display: block;
+}
+.cart_pic{
+    position: relative;
+    left: 150px;
+}
+.cart_signup{
+    position: relative;
+    left: 90px;
+    background-color: #e5dfea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+#off{
+    position: absolute;
+    top: 55px;
+}
+#para{
+    position: absolute;
+    top: 90px;
+}
+.cart_city1{
+    position: absolute;
+    top: 5px;
+    left: 13px;
+    background-color: black;
+    color: white !important;
+    margin: 0rem 1rem !important;
+    font-style: italic;   
+}
+.cart_btn{
+    position: absolute;
+    bottom: 70px;
+    color: white;
+    height: 40px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    position: relative;
+    left: 530px;
+}
+.form{
+    border-radius: 6px;
+    padding: 4px;
+    box-shadow: 5px 3px 3px rgb(140, 187, 206);
+}
+#manu-btn{
+    position: relative;
+    left: 68px;
+    margin-top:10px ;
+    background-color: white;
+    color: black ;
+    border-radius: 10px;
+    border-color: black;
+}
+#manu-btn:hover{
+    background-color: black;
+    color: white;
+}
+.card-title{
+    margin: -5px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.card-price{
+    margin: -8px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.card-container{
+    position: relative;
+    left: 100px;
+}
+.fa-cart{
+    float: right;
+    font-size: 30px;
+}
+.fa-cart p{
+    font-size: 20px;
+    position: relative;
+    top: 17px;
+}
+.facart-manu{
+    text-align: left;
+}
+.fa-nav{
+    background-color: rgb(71, 73, 73);;
+    color: white;
+}
+.count_btn button{
+    margin-top: 10px;
+    margin-left: 4px;
+    width: 30px;
+    height: 25px;
+}
+#bg-red{
+    background-color: red;
+    color: white;
+}
+#bg-green{
+    background-color: green;
+    color: white;
+}
+.form-label{
+    position: relative;
+    right: 90px;
+}
+.form-label-password{
+    position: relative;
+    right: 105px;
+}
+#formBasicEmail{
+    width: 300px;
+}
+#formBasicPassword{
+    width: 300px;
+}
+.form-container{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 120px;
+    top: 15px;
+}
+.buttons{
+   position: relative;
+   right: 15px;
+}
+.box{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    color: black;
+}
+.img-orderpage{
+    width: 100%;
+    height: 557px;
 }
