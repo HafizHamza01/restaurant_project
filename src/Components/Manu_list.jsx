@@ -20,12 +20,6 @@ export const Manu_list = [
         price: "PKR-1200"
     },
     {
-        id: 4,
-        product_image: "https://1.bp.blogspot.com/-aI4D7dr7ITk/U2njtqlnc6I/AAAAAAAAO18/MArzXrNNTRA/s1600/pakistan+kahari+gosht+eef+1.jpg",
-        product_name: "Beef karahi",
-        price: "PKR-2500"
-    },
-    {
         id: 5,
         product_image: "https://www.shutterstock.com/image-photo/mutton-karahi-restaurant-style-gosht-600w-2148912769.jpg",
         product_name: "Mutton karahi",

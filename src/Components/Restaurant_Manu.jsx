@@ -6,7 +6,7 @@ import { Manu_list } from './Manu_list';
 function Restaurant_Manu(props) {
   return (
     <>
-      <nav className=' fa-nav'>
+      <nav className='fa-nav'>
         <div>
           <h1 className="container facart-manu">Manu List</h1>
         </div>

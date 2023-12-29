@@ -16,7 +16,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { FaCartPlus } from "react-icons/fa";
 import { useState } from "react";
-// import SignForm from "./Component/SignForm";
 function App1() {
   const [cart, setCart] = useState([]);
   const onAdd = (item) => {

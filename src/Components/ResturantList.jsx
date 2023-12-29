@@ -29,7 +29,6 @@ function ResturantList() {
       email: ""
     })
   }
-  // console.log(arr);
   return (
     <>
       <form onSubmit={(e) => handleSubmit(e)} id="form">
